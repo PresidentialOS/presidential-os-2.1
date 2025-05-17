@@ -1,0 +1,1 @@
+// Electron entry point placeholder
