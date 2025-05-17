@@ -1,0 +1,14 @@
+
+name: Build Presidential OS ISO
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run ISO builder
+        run: echo "Pretend we're building an ISO here."
